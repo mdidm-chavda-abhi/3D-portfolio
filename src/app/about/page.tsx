@@ -43,26 +43,26 @@ import { TbTerminal2 } from "react-icons/tb";
 const CONTACT_LINKS = [
   {
     name: "Email",
-    content: "abhijitzende75@gmail",
-    href: "mailto:abhijitzende75@gmail.com",
+    content: "abhichavda2004@gmail",
+    href: "mailto:abhichavda2004@gmail.com",
     icon: <FaEnvelope height={"50px"} />,
   },
   {
     name: "Phone",
-    content: "1234567890",
-    href: "tel:8308509180",
+    content: "+91 7016314980",
+    href: "tel:+91 7016314980",
     icon: <FaPhone height={"50px"} />,
   },
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/zende-abhijit/",
-    content: "/zende-abhijit",
+    href: "https://www.linkedin.com/in/abhi-chavda-650a49236/",
+    content: "/abhi-chavda",
     icon: <FaLinkedin height={"50px"} />,
   },
   {
     name: "GitHub",
-    href: "https://github.com/Abhiz2411",
-    content: "/naresh-khatri",
+    href: "https://github.com/mdidm-chavda-abhi",
+    content: "mdidm-chavda-abhi",
     icon: <FaGithub height={"50px"} />,
   },
 ];
@@ -281,22 +281,22 @@ function Page() {
           </div>
         </aside>
         <main className="basis-3/4 w-[500px]">
-          <div
+          <div  
             className="p-10 border-[.5px] rounded-md border-zinc-600"
             style={{ backdropFilter: "blur(2px)" }}
           >
             <h1 className="text-3xl mb-10 lg:md-20">About me</h1>
-            <p className="mb-10 text-roboto">
-              Hey there! I&apos;m Abhijit, a Comp. Sci. Engineer with 1.5 year experience in Devlopment, DevOps and 
-              Database management with hands-on experience in deploying & automating workflows, and 
-              collaborating with foreign clients. Strong analytical skills,effective communication,
-              and a team-oriented approach to driving process improvements and delivering results.
-            </p>
-            <p className="mb-10">
-              When I&apos;m not coding, you can find me [Your
-              Interests/Hobbies], exploring new technologies, or sipping coffee
-              while brainstorming my next project.
-            </p>
+<p className="mb-10 text-roboto">
+  Hey there! I&apos;m Abhi, a Comp. Sci. Engineer with 2 years of experience in Development, DevOps, and 
+  Database Management with hands-on experience in deploying & automating workflows, and 
+  collaborating with foreign clients. Strong analytical skills, effective communication,
+  and a team-oriented approach to driving process improvements and delivering results.
+</p>
+<p className="mb-10">
+  When I&apos;m not coding, you can find me [Your Interests/Hobbies], exploring new technologies, or sipping coffee
+  while brainstorming my next project.
+</p>
+
             <h1 className="text-3xl mb-10 lg:md-20">Stuff I use</h1>
             <div className="mb-5">
               {!toolsLoaded ? (
